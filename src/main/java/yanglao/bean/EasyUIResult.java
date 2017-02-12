@@ -8,7 +8,6 @@ import java.util.List;
  * Created by john on 2016/11/8.
  */
 public class EasyUIResult {
-    //
     //定义jackson对象
     private static final ObjectMapper MAPPER = new ObjectMapper();
 

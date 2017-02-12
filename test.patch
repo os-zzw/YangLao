@@ -1,0 +1,12 @@
+Index: src/main/java/yanglao/bean/Test.java
+===================================================================
+--- src/main/java/yanglao/bean/Test.java	(date 1486871034000)
++++ src/main/java/yanglao/bean/Test.java	(date 1486871034000)
+@@ -1,7 +0,0 @@
+-package yanglao.bean;
+-
+-/**
+- * Created by lenovo1 on 2017/2/12.
+- */
+-public class Test {
+-}
