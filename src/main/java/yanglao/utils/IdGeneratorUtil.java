@@ -15,7 +15,6 @@ public class IdGeneratorUtil {
     }
 
 
-
     public static long getID() {
         // 10 digits.
         long id = System.currentTimeMillis() % LIMIT;
