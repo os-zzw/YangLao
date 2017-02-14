@@ -2,15 +2,18 @@ package yanglao.po;
 
 import java.util.Date;
 
+import javax.persistence.Id;
+
 public class SharePlatformInfo {
 
-    private String id;
+    @Id
+    private String id;//
 
-    private String code;
+    private String code;//
 
-    private String userName;
+    private String userName;//
 
-    private String password;
+    private String password;//
 
     private String gender;
 
@@ -24,7 +27,7 @@ public class SharePlatformInfo {
 
     private String city;
 
-    private String userType;
+    private String userType;//
 
     private String createBy;
 
@@ -36,13 +39,13 @@ public class SharePlatformInfo {
 
     private String remarks;
 
-    private String delFlag;
+    private String delFlag;//
 
-    private String userCode;
+    private String userCode;//
 
     private String avtivateFlag;
 
-    private String news;
+//    private String news;
 
     public String getId() {
         return id;
@@ -196,11 +199,11 @@ public class SharePlatformInfo {
         this.avtivateFlag = avtivateFlag == null ? null : avtivateFlag.trim();
     }
 
-    public String getNews() {
-        return news;
-    }
-
-    public void setNews(String news) {
-        this.news = news == null ? null : news.trim();
-    }
+//    public String getNews() {
+//        return news;
+//    }
+//
+//    public void setNews(String news) {
+//        this.news = news == null ? null : news.trim();
+//    }
 }
